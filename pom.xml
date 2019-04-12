@@ -64,8 +64,13 @@
 
     <distributionManagement>
         <repository>
-            <id>myMavenRepo.write</id>
-            <url>https://mymavenrepo.com/repo/9Q8JoRpymi4UGK8HzbVq/</url>
+            <id>release</id>
+            <url>http://35.243.201.81:8081/repository/Maven1-release/</url>
+        </repository>
+
+<repository>
+            <id>snapshot</id>
+            <url>http://35.243.201.81:8081/repository/maven1Snap/</url>
         </repository>
     </distributionManagement>
 
